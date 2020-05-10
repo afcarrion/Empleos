@@ -22,7 +22,7 @@ public class VacantesServiceImpl implements IVacanteService{
 			//Crear la oferta de trabajo 1
 			Vacante vacante1 = new Vacante();
 			vacante1.setId(1);
-			vacante1.setNombre("Ingeniero Civil");
+			vacante1.setNombre("Ingeniero civil");
 			vacante1.setDescripcion("Solicitamos Ingeniero civil para diseñar puente peatonal");
 			vacante1.setFecha(sdf.parse("08-02-2019"));
 			vacante1.setSalario(1000.0);
