@@ -14,6 +14,8 @@ public class Vacante {
 	private Double salario;
 	private Integer destacado;
 	private String imagen="no-image.png";
+	private String estatus;
+	private String detalles;
 	
 	/*
 	 *Este metodo esta sobre escrito desde la libreria lombok por eso no es necesario implementarlo.
