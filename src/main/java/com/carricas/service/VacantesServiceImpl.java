@@ -32,7 +32,7 @@ public class VacantesServiceImpl implements IVacanteService{
 			//Creamos la oferta de trabajo 1
 			Vacante vacante2 = new Vacante();
 			vacante2.setId(2);
-			vacante2.setNombre("Contador Publico ");
+			vacante2.setNombre("Contador Publico");
 			vacante2.setDescripcion("Importante empresa necesita contador publico con cinco años de experiencia certificada.");
 			vacante2.setFecha(sdf.parse("23-12-2019"));
 			vacante2.setSalario(10000.0);
